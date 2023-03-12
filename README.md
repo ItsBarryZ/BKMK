@@ -22,14 +22,35 @@ We built a quick and dirty prototype (in under 2 hours!) with the help of chatGP
 
 
 ### enter API key
+
 <img
   src="/img/Add_key.png"
   style="display: inline-block; margin: 0 auto; max-width: 100px">
 
 ### add article and article store
+
 <img
   src="/img/add article.png"
-  style="display: inline-block; margin: 0 auto; max-width: 100px">
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
 <img
 src="/img/store.png"
-style="display: inline-block; margin: 0 auto; max-width: 100px">
+style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+### Different QAs:
+<img
+src="/img/QA.png"
+style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+<img
+src="/img/did I.png"
+style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+<img
+src="/img/no answer.png"
+style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+<img
+src="/img/adjacent answer.png"
+style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+
