@@ -3,7 +3,7 @@ A chatGPT-powered web app to do Q&A with your bookmarks using retrieval augmente
 
 ### Motivation:
 1. My friend and I both have an overflowing knowledge base stored in our bookmarks. We wanted to have a bing-like experience with that knowledge base
-2. It's just one of those afternoons3
+2. It's just one of those afternoons where two non-engineers want to build something :3
 
 
 ### What we built:
