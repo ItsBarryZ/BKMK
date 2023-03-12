@@ -5,9 +5,7 @@ import numpy as np
 from bs4 import BeautifulSoup
 import openai
 
-if os.path.isfile('api_key.txt'):
-    with open('api_key.txt') as f:
-        openai.api_key = f.readline()
+
     
 prompt_library = {
     "SYS_answering": "You are no longer a chatbot, you are to give concise answers based on the question articles given, if there are no articles, respond with 'I don't think I remember it'",
@@ -43,6 +41,10 @@ def chatgpt_query(message: list) -> str:
     Returns:
     - The generated response from the GPT-3 Chat model.
     """
+    if os.path.isfile('api_key.txt'):
+        with open('api_key.txt') as f:
+            openai.api_key = f.readline()
+
     return openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=message,
@@ -58,6 +60,9 @@ def embedding_query(text: str) -> list:
     Returns:
     - A list of floats representing the embedding.
     """
+    if os.path.isfile('api_key.txt'):
+        with open('api_key.txt') as f:
+            openai.api_key = f.readline()
     return openai.Embedding.create(
         model='text-embedding-ada-002', 
         input=text[:30000])["data"][0]["embedding"]
