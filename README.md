@@ -2,7 +2,7 @@
 A chatGPT-powered web app to do Q&A with your bookmarks using retrieval augmented generation
 
 ### Motivation:
-1. [My friend](https://www.linkedin.com/in/michael-agaby/) and [I](https://www.linkedin.com/in/yijing-barry-zhang/) both have an overflowing knowledge base stored in our bookmarks. We wanted to have a Bing-like experience with that knowledge base
+1. [My friend](https://www.linkedin.com/in/michael-agaby/) and [I](https://www.linkedin.com/in/yijing-barry-zhang/) both have an overflowing knowledge base stored in our bookmarks. We wanted to have a Bing-like experience interacting with that knowledge base
 2. It's just one of those afternoons where two non-engineers want to build something :3
 
 
