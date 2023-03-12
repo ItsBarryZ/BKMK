@@ -15,3 +15,7 @@ We built a quick and dirty prototype (in under 2 hours!) with the help of chatGP
 - Segmentation and recursive summarization to fit long articles into chatgpt context window
 - ChatGPT API + Prompt engineering to explain the task and enforce formatting
 - Used chatGPT GENEROUSLY to learn, code, debug, and iterate
+
+
+### What you would need:
+- an OPENAI API key: https://openai.com/blog/openai-api, the home page of the web app will prompt you to enter it and you will bear the cost for the usage
