@@ -7,10 +7,7 @@ A chatGPT-powered web app to do Q&A with your bookmarks using retrieval augmente
 
 
 ### What we built:
-We built a quick and dirty prototype (in under 2 hours!) with the help of chatGPT. It's a locally hosted web app that will index websites, search through
-its contents, and answer any questions for you, similar to Bing but personalized to your own knowledge base. It has a lot of limitations (mainly in what it
-is able to index), but most of the techniques are transferrable if you are interested in expanding its capability.
-
+We built a quick and dirty prototype (in under 2 hours!) with the help of chatGPT. It's a locally hosted web app that will index website url you add, search through its contents, and answer any questions for you, similar to Bing but personalized to your own knowledge base. It has a lot of limitations (mainly in what it is able to index), but most of the techniques are quite transferrable if you are interested in expanding its capability.
 
 
 ### Techniques/Learnings:
