@@ -21,4 +21,4 @@ We built a quick and dirty prototype (in under 2 hours!) with the help of chatGP
 - an OPENAI API key: https://openai.com/blog/openai-api, the home page of the web app will prompt you to enter it and you will bear the cost for the usage
 
 
-![My Image](Add_key.png)
+![My Image](/img/Add_key.png)
