@@ -2,7 +2,7 @@
 A chatGPT-powered web app to do Q&A with your bookmarks using retrieval augmented generation
 
 ### Motivation:
-1. My friend[https://www.linkedin.com/in/michael-agaby/] and I both have an overflowing knowledge base stored in our bookmarks. We wanted to have a bing-like experience with that knowledge base
+1. [My friend](https://www.linkedin.com/in/michael-agaby/) and I both have an overflowing knowledge base stored in our bookmarks. We wanted to have a Bing-like experience with that knowledge base
 2. It's just one of those afternoons where two non-engineers want to build something :3
 
 
@@ -18,39 +18,39 @@ We built a quick and dirty prototype (in under 2 hours!) with the help of chatGP
 
 
 ### What you would need to use this:
-- an OPENAI API key: https://openai.com/blog/openai-api, the home page of the web app will prompt you to enter it and you will bear the cost for the usage
+- an OPENAI API key: https://openai.com/blog/openai-api, the home page of the web app will prompt you to enter it and you will bear the cost for the usage (embedding cost is basically negligible, our recursive summarizer is costing roughly 1c/query)
 
 
 ### enter API key
 
 <img
-  src="/img/Add_key.png"
-  style="display: inline-block; margin: 0 auto; max-width: 100px">
+  src="/img/Add_key.png" width=500>
 
 ### add article and article store
 
 <img
   src="/img/add article.png"
-  style="display: inline-block; margin: 0 auto; max-width: 50px">
-<img
-src="/img/store.png"
-style="display: inline-block; margin: 0 auto; max-width: 50px">
-
-### Different QAs:
-<img
-src="/img/QA.png"
-style="display: inline-block; margin: 0 auto; max-width: 50px">
+  width=500>
 
 <img
-src="/img/did I.png"
-style="display: inline-block; margin: 0 auto; max-width: 50px">
+  src="/img/store.png"
+  width=500>
+
+### Different QA results:
+<img
+  src="/img/QA.png"
+  width=400>
 
 <img
-src="/img/no answer.png"
-style="display: inline-block; margin: 0 auto; max-width: 50px">
+  src="/img/did I.png"
+  width=500>
 
 <img
-src="/img/adjacent answer.png"
-style="display: inline-block; margin: 0 auto; max-width: 50px">
+  src="/img/no answer.png"
+  width=500>
+
+<img
+  src="/img/adjacent answer.png"
+  width=500>
 
 
