@@ -24,6 +24,12 @@ We built a quick and dirty prototype (in under 2 hours!) with the help of chatGP
 ### enter API key
 <img
   src="/img/Add_key.png"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
 
-### 
+### add article and article store
+<img
+  src="/img/add article.png"
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
+<img
+src="/img/store.png"
+style="display: inline-block; margin: 0 auto; max-width: 100px">
