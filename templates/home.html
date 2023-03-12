@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enter API key</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Enter API key</h1>
+    <form method="post">
+      <label for="api_key">API key:</label>
+      <input type="text" id="api_key" name="api_key" required>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

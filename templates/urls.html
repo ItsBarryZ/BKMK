@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BKMK</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body style="background-color: #F2F2F2;">
+    <h1>BKMK</h1>
+    <p>Welcome to the Bookmark app! You can upload articles that you want to save for later, or use retrieval augmented generation to find answers to questions about those articles!</p>
+    <hr>
+    <center>
+    <h2>Saved Articles</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for url in urls %}
+          <tr>
+            <td><a href="{{ url }}" target="_blank">{{ url }}</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a href="{{ url_for('index') }}"><button type="submit">Back to Main Page</button></a>
+        <div class="powered-by">Powered by ChatGPT</div></center>
+
+  </body>
+</html>

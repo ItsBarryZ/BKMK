@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BKMK</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body style="background-color: #F2F2F2;">
+    <h1>BKMK</h1>
+    <p>Welcome to the Bookmark app! You can upload articles that you want to save for later, or use retrieval augmented generation to find answers to questions about those articles!</p>
+    <hr>
+    <div class="form-container">
+      <div class="form">
+        <form method="post">
+          <label for="url">Enter URL:</label>
+          <input type="text" id="url" name="url">
+          <button type="submit">Store article</button>
+        </form>
+      </div>
+      <div class="form">
+        <form method="post">
+          <label for="query">Ask Question:</label>
+          <input type="text" id="query" name="query">
+          <button type="submit">Generate answer</button>
+        </form>
+      </div>
+    </div>
+    {% if message %}
+      <h2>{{ message }}</h2>
+    {% endif %}
+    <hr>
+    <center>
+    <a href="{{ url_for('get_urls') }}"><button type="submit">Saved Articles</button></a>
+    
+    <form method="post" id="api_key_form" class="api-form">
+      <div class="input-submit-wrapper">
+        <label for="api_key">New Key:</label>
+        <input type="text" id="api_key" name="api_key" value="{{ api_key }}" required>
+        <button type="submit">Save</button>
+      </div>
+    </form>
+    <div class="powered-by">Powered by ChatGPT</div>
+    </center>
+  </body>
+</html>
