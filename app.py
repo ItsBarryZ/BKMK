@@ -62,7 +62,7 @@ def index() -> str:
             if success:
                 message = 'Article stored successfully!'
             else:
-                message = 'Failed to store article.'
+                message = 'Failed to store article. Article already exists or cannot be indexed'
         elif 'query' in request.form:
             query = request.form['query']
             message = generate_answer(query)

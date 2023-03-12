@@ -6,9 +6,9 @@
   </head>
   <body style="background-color: #F2F2F2;">
     <h1>BKMK</h1>
-    <p>Welcome to the Bookmark app! You can upload articles that you want to save for later, or use retrieval augmented generation to find answers to questions about those articles!</p>
+    <p>Welcome to the BKMK app! This is as good of a UI as we are gonna build but you could upload urls and find answers within your saved articles here!</p>
     <hr>
-    <div class="form-container">
+    <div>
       <div class="form">
         <form method="post">
           <label for="url">Enter URL:</label>
@@ -28,16 +28,9 @@
       <h2>{{ message }}</h2>
     {% endif %}
     <hr>
-    <center>
+
     <a href="{{ url_for('get_urls') }}"><button type="submit">Saved Articles</button></a>
-    
-    <form method="post" id="api_key_form" class="api-form">
-      <div class="input-submit-wrapper">
-        <label for="api_key">New Key:</label>
-        <input type="text" id="api_key" name="api_key" value="{{ api_key }}" required>
-        <button type="submit">Save</button>
-      </div>
-    </form>
+    <center>
     <div class="powered-by">Powered by ChatGPT</div>
     </center>
   </body>

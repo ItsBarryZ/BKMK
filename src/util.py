@@ -5,8 +5,9 @@ import numpy as np
 from bs4 import BeautifulSoup
 import openai
 
-with open('api_key.txt') as f:
-    openai.api_key = f.readline()
+if os.path.isfile('api_key.txt'):
+    with open('api_key.txt') as f:
+        openai.api_key = f.readline()
     
 prompt_library = {
     "SYS_answering": "You are no longer a chatbot, you are to give concise answers based on the question articles given, if there are no articles, respond with 'I don't think I remember it'",
@@ -45,7 +46,7 @@ def chatgpt_query(message: list) -> str:
     return openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=message,
-    ).choices[0].text
+    ).choices[0].message.content
 
 def embedding_query(text: str) -> list:
     """
